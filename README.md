@@ -76,3 +76,18 @@ docker compose up -d
 
 # Test DB connection
 python ../06_postgres_connection_test/main.py
+
+## Author
+
+Yeshwanth Akula  
+Master’s in Computer Science — Saint Louis University  
+Focus: AI Engineering, LLM Systems, Production ML  
+
+---
+
+## Status
+
+Phase 1 — Completed  
+Phase 2 starting next.
+
+
