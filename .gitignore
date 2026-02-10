@@ -1,15 +1,16 @@
-﻿# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual envs
+﻿# venvs
 .venv/
 .venv*/
-venv/
-env/
-
-# OS / IDE
-.vscode/
+# python
+__pycache__/
+*.pyc
+# secrets
+.env
+# local/caches
+.cache/
+# mlflow artifacts (optional; keep if you want)
+mlruns/
+*.db
+# OS/editor
 .DS_Store
+.vscode/
