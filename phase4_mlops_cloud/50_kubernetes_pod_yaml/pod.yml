@@ -1,0 +1,9 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-pod
+spec:
+  containers:
+    - name: hello
+      image: alpine:3.20
+      command: ["sh","-c","echo hello from k8s && sleep 3600"]

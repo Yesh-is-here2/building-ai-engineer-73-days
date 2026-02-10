@@ -1,0 +1,9 @@
+﻿services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: yesh
+      POSTGRES_PASSWORD: yeshpass
+      POSTGRES_DB: phase1db
+    ports:
+      - "5432:5432"

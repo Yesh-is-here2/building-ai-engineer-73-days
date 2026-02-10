@@ -1,0 +1,2 @@
+﻿cd phase1_core_ml/11_first_jupyter_notebook
+jupyter notebook
