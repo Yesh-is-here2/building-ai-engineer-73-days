@@ -1,16 +1,13 @@
-﻿# venvs
+﻿# Python venvs
 .venv/
-.venv*/
-# python
+.venv312/
+venv/
 __pycache__/
 *.pyc
-# secrets
-.env
-# local/caches
-.cache/
-# mlflow artifacts (optional; keep if you want)
-mlruns/
-*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
 # OS/editor
-.DS_Store
 .vscode/
+.DS_Store
