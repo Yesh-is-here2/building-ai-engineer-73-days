@@ -1,2 +1,15 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-local_notes/
+# Virtual envs
+.venv/
+.venv*/
+venv/
+env/
+
+# OS / IDE
+.vscode/
+.DS_Store
