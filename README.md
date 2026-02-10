@@ -75,8 +75,9 @@ cd phase1_core_ml/14_docker_compose_db
 docker compose up -d
 
 # Test DB connection
-python ../06_postgres_connection_test/main.py
+python ../06_postgres_connection_test/main.py```
 
+---
 ## Author
 
 Yeshwanth Akula  
@@ -89,5 +90,6 @@ Focus: AI Engineering, LLM Systems, Production ML
 
 Phase 1 — Completed  
 Phase 2 starting next.
+
 
 
