@@ -1,0 +1,41 @@
+PHASE 2.21 — ChromaDB Store + Retrieve
+Date: 2026-02-18T14:33:04
+Command: python phase2_llm_nlp\21_chromadb_store_retrieve\main.py
+
+Query: cats
+
+Raw result:
+{
+  "ids": [
+    [
+      "a",
+      "b"
+    ]
+  ],
+  "embeddings": null,
+  "documents": [
+    [
+      "cats",
+      "dogs"
+    ]
+  ],
+  "uris": null,
+  "included": [
+    "documents",
+    "distances",
+    "metadatas"
+  ],
+  "data": null,
+  "metadatas": [
+    [
+      null,
+      null
+    ]
+  ],
+  "distances": [
+    [
+      0.0,
+      0.5695107579231262
+    ]
+  ]
+}
