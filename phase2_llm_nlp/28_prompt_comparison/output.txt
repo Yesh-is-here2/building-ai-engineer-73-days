@@ -1,0 +1,36 @@
+PHASE 2.28 - Prompt Comparison
+Date: 2026-02-18T15:44:04
+Command: python phase2_llm_nlp\28_prompt_comparison\main.py
+
+Goal:
+Summarize what we built in Phase 2 so far (19–21).
+
+Results (offline stub, demonstrates prompt effect):
+
+Prompt A (vague):
+Prompt: Summarize what we built in Phase 2 so far (19–21).
+Output:
+We worked on a few NLP/LLM modules and made progress.
+------------------------------------------------------------
+Prompt B (one sentence):
+Prompt: Summarize what we built in Phase 2 so far (19–21). Respond in ONE sentence.
+Output:
+Phase 2 so far built embeddings + similarity search and basic vector store retrieval.
+------------------------------------------------------------
+Prompt C (step-by-step):
+Prompt: Summarize what we built in Phase 2 so far (19–21). Provide step-by-step bullet points.
+Output:
+1) Read the input.
+2) Extract key points.
+3) Organize them into ordered steps.
+4) Output with short, numbered instructions.
+------------------------------------------------------------
+Prompt D (strict JSON):
+Prompt: Summarize what we built in Phase 2 so far (19–21). Output STRICT JSON following this schema: {task, style, bullets, risk}.
+Output:
+{"task":"summarize_phase2","style":"structured","bullets":["2.19 embeddings","2.20 faiss search","2.21 chroma store/retrieve"],"risk":"no-api"}
+------------------------------------------------------------
+
+Notes:
+- More constraints => more predictable outputs (format, length, structure).
+- This module stays runnable offline; later we can swap fake_llm() with a real API call.
