@@ -1,0 +1,15 @@
+PHASE 2.23 - LangChain Basic Chain
+Date: 2026-02-18T15:04:21
+Command: python phase2_llm_nlp\23_langchain_basic_chain\main.py
+Mode: stub
+
+Input:
+Explain what a LangChain 'chain' is in one paragraph, and give one simple example use-case.
+
+Output:
+STUB: LangChain chain not executed (missing key/deps). This run still proves module wiring + artifact logging.
+Reason: RuntimeError: OPENAI_API_KEY not set (running stub mode).
+
+Notes:
+- If you want REAL mode, set OPENAI_API_KEY and install:
+  pip install langchain langchain-core langchain-openai
