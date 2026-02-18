@@ -1,0 +1,18 @@
+PHASE 2.22 - Pinecone Cloud Query
+Date: 2026-02-18T14:53:44
+Command: python phase2_llm_nlp\22_pinecone_cloud_query\main.py
+Mode: stub
+Index: -
+Namespace: -
+
+Query:
+What did we build so far in Phase 2 (16-21)?
+
+Result:
+STUB: Pinecone not configured yet (no PINECONE_API_KEY / index). This run proves module setup + artifact logging.
+
+Notes:
+- To run real Pinecone query later, set environment variables:
+  PINECONE_API_KEY
+  PINECONE_INDEX
+  PINECONE_ENV
