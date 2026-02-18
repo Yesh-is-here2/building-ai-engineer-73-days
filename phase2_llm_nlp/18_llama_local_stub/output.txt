@@ -1,0 +1,9 @@
+﻿PHASE 2.18 â€” LLaMA Local Stub
+Date: 2026-02-18T12:30:25
+Command: python phase2_llm_nlp\18_llama_local_stub\main.py
+
+Prompt:
+Summarize what we did in Phase 2.17 and what Phase 2.18 is.
+
+Output:
+Stub summary: This is a placeholder response demonstrating offline LLM flow.
