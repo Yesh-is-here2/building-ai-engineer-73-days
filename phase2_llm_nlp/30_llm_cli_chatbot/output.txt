@@ -1,0 +1,17 @@
+PHASE 2.30 - LLM CLI Chatbot (Offline Stub)
+Date: 2026-02-18T15:52:34
+Command: python phase2_llm_nlp\30_llm_cli_chatbot\main.py
+
+Scripted chat transcript:
+
+You: Hi, what did we learn in Phase 2 so far?
+Bot: Stub reply: I received your message and would answer it here. You said: 'Hi, what did we learn in Phase 2 so far?'
+------------------------------------------------------------
+You: Explain embeddings in one line.
+Bot: Embeddings map text to vectors so we can compare meaning using distances (e.g., cosine).
+------------------------------------------------------------
+You: What is RAG?
+Bot: RAG = retrieve relevant docs (vector search) then generate an answer grounded in them.
+------------------------------------------------------------
+You: exit
+Bot: Exiting. (stub)
