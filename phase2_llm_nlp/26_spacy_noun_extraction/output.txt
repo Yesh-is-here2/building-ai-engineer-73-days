@@ -1,0 +1,38 @@
+PHASE 2.26 - spaCy Noun Extraction
+Date: 2026-02-18T15:36:25
+Command: python phase2_llm_nlp\26_spacy_noun_extraction\main.py
+Model: en_core_web_sm
+
+Input text:
+LangChain and LangGraph help developers build LLM workflows. We used sentence embeddings with MiniLM, FAISS for similarity search, and vector databases like ChromaDB and Pinecone.
+
+Extracted nouns / proper nouns:
+- LangChain
+- LangGraph
+- developers
+- LLM
+- workflows
+- sentence
+- embeddings
+- MiniLM
+- FAISS
+- similarity
+- search
+- vector
+- databases
+- ChromaDB
+- Pinecone
+
+Noun chunks:
+- LangChain
+- LangGraph
+- developers
+- LLM workflows
+- We
+- sentence embeddings
+- MiniLM
+- FAISS
+- similarity search
+- vector databases
+- ChromaDB
+- Pinecone
