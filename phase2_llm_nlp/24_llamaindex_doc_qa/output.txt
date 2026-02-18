@@ -1,0 +1,10 @@
+PHASE 2.24 - LlamaIndex Document QA
+Date: 2026-02-18T15:20:41
+Command: python phase2_llm_nlp\24_llamaindex_doc_qa\main.py
+Mode: real
+
+Query:
+What did we build in Phase 2 so far?
+
+Output:
+In Phase 2 so far, we have built tokenization, OpenAI completions, LLaMA local stub, sentence embeddings, FAISS similarity search, ChromaDB store/retrieve, Pinecone cloud query, LangChain chain, and LlamaIndex document QA.
