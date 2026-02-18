@@ -1,0 +1,1 @@
+Phase 2 includes tokenization, OpenAI completions, LLaMA local stub, sentence embeddings, FAISS similarity search, ChromaDB store/retrieve, Pinecone cloud query, LangChain chain, and LlamaIndex document QA.
