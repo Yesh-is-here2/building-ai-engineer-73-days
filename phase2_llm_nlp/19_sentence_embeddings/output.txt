@@ -1,0 +1,16 @@
+PHASE 2.19 — Sentence Embeddings
+Date: 2026-02-18T14:16:44
+Command: python phase2_llm_nlp\19_sentence_embeddings\main.py
+Model: sentence-transformers/all-MiniLM-L6-v2
+Sentences:
+- I love machine learning.
+- Artificial intelligence is transforming industries.
+- Pizza tastes great on weekends.
+- Deep learning uses neural networks.
+Embedding shape: (4, 384)
+Cosine similarity matrix:
+[[1.     0.4443 0.158  0.544 ]
+ [0.4443 1.     0.1109 0.3867]
+ [0.158  0.1109 1.     0.0236]
+ [0.544  0.3867 0.0236 1.    ]]
+Notes: Similar sentences should have higher similarity values.
