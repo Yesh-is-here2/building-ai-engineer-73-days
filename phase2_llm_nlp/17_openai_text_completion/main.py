@@ -1,13 +1,22 @@
 ﻿import os
+from openai import OpenAI
 
-prompt = "Write one sentence about building AI skills daily."
-key = os.getenv("OPENAI_API_KEY")
+def main():
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise SystemExit("ERROR: OPENAI_API_KEY is not set in environment variables.")
 
-print("Prompt:", prompt)
+    client = OpenAI(api_key=api_key)
 
-if not key:
-    print("\nOPENAI_API_KEY not set -> safe stub mode.")
-    print("When ready: set OPENAI_API_KEY and add the OpenAI SDK call here.")
-else:
-    print("\nOPENAI_API_KEY detected (not printing it).")
-    print("Next step: wire official OpenAI SDK call.")
+    prompt = "Give me 3 bullet points on why version control matters for ML projects."
+
+    resp = client.responses.create(
+        model="gpt-4o-mini",
+        input=prompt
+    )
+
+    # Print only the final text
+    print(resp.output_text)
+
+if __name__ == "__main__":
+    main()
