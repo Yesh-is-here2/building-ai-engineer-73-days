@@ -1,0 +1,19 @@
+PHASE 2.27 - NLTK Token Cleanup
+Date: 2026-02-18T15:40:18
+Command: python phase2_llm_nlp\27_nltk_token_cleanup\main.py
+
+Input text:
+RAG pipelines use embeddings + vector search (FAISS/Chroma) to retrieve context, then an LLM generates answers. Clean tokens help indexing and analytics!
+
+Raw tokens (NLTK word_tokenize):
+['RAG', 'pipelines', 'use', 'embeddings', '+', 'vector', 'search', '(', 'FAISS/Chroma', ')', 'to', 'retrieve', 'context', ',', 'then', 'an', 'LLM', 'generates', 'answers', '.', 'Clean', 'tokens', 'help', 'indexing', 'and', 'analytics', '!']
+
+Lowercased alphabetic tokens:
+['rag', 'pipelines', 'use', 'embeddings', 'vector', 'search', 'to', 'retrieve', 'context', 'then', 'an', 'llm', 'generates', 'answers', 'clean', 'tokens', 'help', 'indexing', 'and', 'analytics']
+
+After stopword removal:
+['rag', 'pipelines', 'use', 'embeddings', 'vector', 'search', 'retrieve', 'context', 'llm', 'generates', 'answers', 'clean', 'tokens', 'help', 'indexing', 'analytics']
+
+Notes:
+- We keep only alphabetic tokens for a clean vocabulary.
+- Stopword removal reduces noise for simple NLP analytics.
