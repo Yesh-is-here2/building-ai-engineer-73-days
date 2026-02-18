@@ -1,0 +1,10 @@
+PHASE 2.20 — FAISS Similarity Search
+Date: 2026-02-18T14:23:28
+Model: sentence-transformers/all-MiniLM-L6-v2
+
+Query:
+Neural networks and AI
+
+Top 2 Results:
+1. Deep learning uses neural networks. (distance=0.8623)
+2. I love machine learning. (distance=1.0533)
