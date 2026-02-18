@@ -1,0 +1,10 @@
+Model: bert-base-uncased
+Text: Hello Yesh. Today we tokenize text using Transformers.
+
+Tokens (12):
+['hello', 'yes', '##h', '.', 'today', 'we', 'token', '##ize', 'text', 'using', 'transformers', '.']
+
+Input IDs:
+[101, 7592, 2748, 2232, 1012, 2651, 2057, 19204, 4697, 3793, 2478, 19081, 1012, 102]
+Attention Mask:
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]

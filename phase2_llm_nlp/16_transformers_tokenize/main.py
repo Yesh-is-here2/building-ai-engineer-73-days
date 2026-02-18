@@ -1,18 +1,41 @@
-﻿from transformers import AutoTokenizer, AutoModelForSequenceClassification
-import torch
+﻿import os
+import json
+from transformers import AutoTokenizer
 
-text = "I am building AI skills step by step."
-model_name = "distilbert-base-uncased-finetuned-sst-2-english"
+BASE_DIR = os.path.dirname(__file__)
+ARTIFACTS = os.path.join(BASE_DIR, "artifacts")
+LOGS = os.path.join(ARTIFACTS, "logs")
+OUT = os.path.join(ARTIFACTS, "outputs")
 
-print("Loading:", model_name)
-tok = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSequenceClassification.from_pretrained(model_name)
+os.makedirs(LOGS, exist_ok=True)
+os.makedirs(OUT, exist_ok=True)
 
-batch = tok(text, return_tensors="pt")
-print("token shapes:", {k: tuple(v.shape) for k,v in batch.items()})
+model_name = "bert-base-uncased"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-with torch.no_grad():
-    out = model(**batch)
+text = "Hello Yesh. Today we tokenize text using Transformers."
 
-pred = int(torch.argmax(out.logits, dim=1).item())
-print("label:", model.config.id2label[pred])
+tokens = tokenizer.tokenize(text)
+encoded = tokenizer(text)
+
+report = {
+    "model": model_name,
+    "text": text,
+    "tokens": tokens,
+    "input_ids": encoded["input_ids"],
+    "attention_mask": encoded["attention_mask"],
+    "token_count": len(tokens),
+}
+
+with open(os.path.join(OUT, "tokenization_report.json"), "w", encoding="utf-8") as f:
+    json.dump(report, f, indent=2)
+
+with open(os.path.join(LOGS, "run_log.txt"), "w", encoding="utf-8") as f:
+    f.write(f"Model: {model_name}\n")
+    f.write(f"Text: {text}\n\n")
+    f.write(f"Tokens ({len(tokens)}):\n{tokens}\n\n")
+    f.write(f"Input IDs:\n{encoded['input_ids']}\n")
+    f.write(f"Attention Mask:\n{encoded['attention_mask']}\n")
+
+print("Tokenization complete.")
+print("Artifacts saved successfully.")
