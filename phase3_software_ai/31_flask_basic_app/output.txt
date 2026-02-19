@@ -1,0 +1,19 @@
+PHASE 3.31 - Flask Basic App
+Date: 2026-02-19T16:10:05
+Command: python phase3_software_ai\31_flask_basic_app\main.py
+Python: 3.13.1
+Platform: Windows-11-10.0.26100-SP0
+
+What this module proves:
+- Minimal Flask API with two routes:
+  GET /       -> plain text
+  GET /health -> JSON status
+
+How to run:
+1) python phase3_software_ai\31_flask_basic_app\main.py
+2) In another terminal:
+   curl http://127.0.0.1:5000/
+   curl http://127.0.0.1:5000/health
+
+Notes:
+- This file writes this output.txt, then starts the Flask dev server.

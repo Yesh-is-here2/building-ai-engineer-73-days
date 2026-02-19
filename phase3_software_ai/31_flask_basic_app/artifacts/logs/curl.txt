@@ -1,0 +1,6 @@
+﻿OK: Flask app is running
+
+{
+    "service":  "flask-basic-app",
+    "status":  "ok"
+}
