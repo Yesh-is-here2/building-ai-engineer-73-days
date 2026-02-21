@@ -1,0 +1,16 @@
+{
+  "module": "3.35",
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "db": 0
+  },
+  "steps": [],
+  "ok": false,
+  "note": "Redis not reachable. This is expected if Redis server is not installed/running on Windows.",
+  "error": {
+    "type": "TimeoutError",
+    "message": "Timeout connecting to server"
+  },
+  "written_at_utc": "2026-02-21T02:24:23.568183+00:00"
+}
