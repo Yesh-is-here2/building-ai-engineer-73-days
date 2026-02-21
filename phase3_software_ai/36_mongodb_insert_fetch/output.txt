@@ -1,0 +1,33 @@
+{
+  "module": "3.36",
+  "mongo_uri": "mongodb://127.0.0.1:27017",
+  "db": "ai_engineer_73",
+  "collection": "phase3_36_docs",
+  "ok": true,
+  "steps": [
+    {
+      "action": "PING",
+      "result": "ok"
+    },
+    {
+      "action": "INSERT_ONE",
+      "inserted_id": "699919145b2cf03219daead6"
+    },
+    {
+      "action": "FIND_ONE",
+      "document": {
+        "_id": "699919145b2cf03219daead6",
+        "module": "3.36",
+        "name": "yesh",
+        "message": "hello mongodb",
+        "created_at_utc": "2026-02-21T02:31:48.459072+00:00",
+        "meta": {
+          "os": "windows",
+          "shell": "powershell"
+        }
+      }
+    }
+  ],
+  "note": "Success: inserted and fetched document from MongoDB.",
+  "written_at_utc": "2026-02-21T02:31:48.480662+00:00"
+}

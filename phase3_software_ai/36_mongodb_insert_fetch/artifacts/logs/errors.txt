@@ -1,0 +1,5 @@
+﻿ERROR (Phase 3.36):
+pip freeze was pasted together with the next command, causing Out-File to fail:
+'pip freeze | Out-File ... requirements_freeze.txt"--- python run start ...'
+Result: requirements_freeze.txt not written on first attempt.
+Timestamp: 2026-02-20T20:33:37
