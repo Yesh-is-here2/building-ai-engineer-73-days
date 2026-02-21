@@ -1,0 +1,9 @@
+﻿{
+  "module": "3.43",
+  "ok": true,
+  "ui_url": "http://localhost:5173",
+  "api_url": "http://localhost:3003",
+  "calls": ["GET /health", "GET /me (protected)"],
+  "auth": "Authorization: Bearer <user input>",
+  "evidence": ["artifacts/logs/terminal.txt", "artifacts/images/*.png"]
+}
