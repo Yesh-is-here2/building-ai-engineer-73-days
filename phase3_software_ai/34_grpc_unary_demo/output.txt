@@ -1,0 +1,11 @@
+{
+  "module": "3.34",
+  "call": "Greeter.SayHello",
+  "request": {
+    "name": "yesh"
+  },
+  "response": {
+    "message": "Hello, yesh! (utc=2026-02-21T02:20:13.876148+00:00)"
+  },
+  "written_at_utc": "2026-02-21T02:20:13.876570+00:00"
+}
