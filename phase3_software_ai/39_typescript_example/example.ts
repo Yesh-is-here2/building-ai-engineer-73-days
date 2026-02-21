@@ -1,4 +1,8 @@
-﻿function add(a: number, b: number): number {
-  return a + b;
+﻿type User = { name: string; age: number };
+
+function greet(u: User): string {
+  return `Hello ${u.name}, you are ${u.age} years old.`;
 }
-console.log(add(2, 3));
+
+const user: User = { name: "Yesh", age: 23 };
+console.log(greet(user));

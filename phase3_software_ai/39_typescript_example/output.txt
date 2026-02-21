@@ -1,0 +1,7 @@
+﻿{
+  "module": "3.39",
+  "ok": true,
+  "tool": "typescript + ts-node",
+  "entry": "example.ts",
+  "expected_stdout": "Hello Yesh, you are 23 years old."
+}
