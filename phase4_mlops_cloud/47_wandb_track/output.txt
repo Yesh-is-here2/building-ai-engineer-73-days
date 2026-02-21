@@ -1,0 +1,12 @@
+﻿Phase 4  47 W&B Tracking
+
+Project:
+https://wandb.ai/yeshuyesh7813-saint-louis-university/phase4_47_wandb_tracking
+
+Run:
+https://wandb.ai/yeshuyesh7813-saint-louis-university/phase4_47_wandb_tracking/runs/eotdx4cr
+
+Run summary:
+accuracy=0.91196
+loss=0.11713
+epoch=4
