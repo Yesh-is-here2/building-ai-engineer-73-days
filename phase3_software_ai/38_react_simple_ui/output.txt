@@ -1,0 +1,7 @@
+﻿{
+  "module": "3.38",
+  "ok": true,
+  "tool": "vite+react",
+  "url": "http://localhost:5173",
+  "screenshot": "artifacts/images/ui.png"
+}
