@@ -1,0 +1,8 @@
+﻿ERROR (Phase 3.33):
+curl failed to connect to 127.0.0.1:8001 (/, /health, /echo)
+Timestamp: 2026-02-20T20:06:54
+Likely cause: uvicorn not running / exited / wrong window.
+ERROR (Phase 3.33):
+POST /echo returned 422 due to JSON decode error (PowerShell quoting).
+Fixed by posting artifacts/files/echo_payload.json via --data-binary.
+Timestamp: 2026-02-20T20:11:55
