@@ -1,0 +1,10 @@
+﻿{
+  "module": "3.44",
+  "ok": true,
+  "service": "swagger_docs_api",
+  "base_url": "http://localhost:3004",
+  "endpoints": ["/", "/health", "/echo", "/openapi.json", "/docs"],
+  "swagger_ui": "/docs",
+  "openapi_spec": "/openapi.json",
+  "evidence": "artifacts/logs/terminal.txt"
+}
