@@ -1,0 +1,16 @@
+PHASE 4 ? MODULE 46
+MLflow Metric Logging
+
+Backend: SQLite
+Tracking URI: sqlite:///mlflow.db
+Experiment: phase4_46_mlflow_experiment
+
+Logged:
+- Params: learning_rate, batch_size, optimizer
+- Metrics: loss, accuracy (5 epochs)
+
+Artifacts:
+- mlflow.db
+- mlruns/
+- artifacts/logs/terminal.txt
+- artifacts/images/mlflow_ui.png
