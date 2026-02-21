@@ -1,0 +1,11 @@
+﻿{
+  "module": "3.42",
+  "ok": true,
+  "service": "env_token_api",
+  "base_url": "http://localhost:3003",
+  "secret_source": ".env (ignored)",
+  "public_endpoints": ["/health"],
+  "protected_endpoints": ["/me"],
+  "auth": "Authorization: Bearer devtoken123",
+  "evidence": "artifacts/logs/terminal.txt"
+}
