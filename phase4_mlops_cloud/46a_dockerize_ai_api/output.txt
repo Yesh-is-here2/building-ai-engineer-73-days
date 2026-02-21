@@ -1,0 +1,19 @@
+PHASE 4 - MODULE 46a: Dockerize AI API (Express)
+
+Image: ai-api:46a
+Container: ai-api-46a
+Port: 3004
+
+Routes:
+  GET  /health
+  POST /ai
+
+Artifacts:
+  artifacts/logs/terminal.txt  (docker build/run/logs)
+  artifacts/logs/curl.txt      (raw endpoint responses)
+  artifacts/files/body.json    (POST request body)
+
+Expected:
+  /health returns status=ok JSON
+  /ai returns model/user/prompt/answer JSON
+  Missing fields returns 400 JSON with error

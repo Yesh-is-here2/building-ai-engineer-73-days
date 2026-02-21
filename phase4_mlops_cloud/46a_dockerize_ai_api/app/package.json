@@ -1,0 +1,13 @@
+{
+  "name": "ai-api-dockerized",
+  "version": "1.0.0",
+  "description": "Phase 4.46a - Dockerized AI API (Express) with /health and /ai endpoints",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
