@@ -1,0 +1,8 @@
+﻿{
+  "module": "3.45",
+  "ok": true,
+  "service": "ai_powered_api",
+  "base_url": "http://localhost:3004",
+  "endpoints": ["/health", "/ai"],
+  "evidence": "artifacts/logs/terminal.txt"
+}
