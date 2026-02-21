@@ -1,0 +1,9 @@
+﻿ERROR (Phase 3.32):
+Tee-Object : A parameter cannot be found that matches parameter name 'Appendcd'.
+Cause: uvicorn command line got concatenated with 'cd ...' on same line.
+Result: server never started -> curl failed to connect.
+Timestamp: 2026-02-20T19:57:32
+ERROR (Phase 3.32):
+Get-Content positional parameter error.
+Cause: typed/pasted 'type .\output.txt' twice on the same line -> 'type .\output.txttype .\output.txt'
+Timestamp: 2026-02-20T20:00:31

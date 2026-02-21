@@ -1,0 +1,10 @@
+{
+  "event": "GET /health",
+  "response": {
+    "ok": true,
+    "status": "healthy",
+    "app": "fastapi-hello",
+    "version": "3.32"
+  },
+  "written_at_utc": "2026-02-21T01:59:19.184627+00:00"
+}
