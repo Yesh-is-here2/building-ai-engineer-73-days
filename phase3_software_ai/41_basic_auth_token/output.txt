@@ -1,0 +1,10 @@
+﻿{
+  "module": "3.41",
+  "ok": true,
+  "service": "basic_auth_token_api",
+  "base_url": "http://localhost:3002",
+  "public_endpoints": ["/health"],
+  "protected_endpoints": ["/me"],
+  "auth": "Authorization: Bearer devtoken123",
+  "evidence": "artifacts/logs/terminal.txt"
+}
