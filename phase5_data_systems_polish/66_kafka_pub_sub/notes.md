@@ -1,4 +1,17 @@
-﻿Day 66 - Kafka producer/consumer (stub)
+﻿Day 66 - Kafka Pub/Sub (offline-safe)
 
-Kept it small and runnable.
-If this needs a key/service, I left a safe stub and clear instructions.
+Goal:
+- Simulate Kafka messaging architecture.
+
+Pipeline:
+Producer -> Topic -> Consumer
+
+Artifacts:
+- artifacts/files/topic_messages.jsonl
+- artifacts/files/consumed_messages.json
+- artifacts/files/kafka_metrics.json
+- artifacts/files/main_output.txt
+
+Why this matters:
+- Kafka is used for real-time ML pipelines.
+- Streaming predictions and logs use pub/sub messaging.

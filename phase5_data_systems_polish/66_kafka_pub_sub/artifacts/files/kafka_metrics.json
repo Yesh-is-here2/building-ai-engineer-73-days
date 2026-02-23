@@ -1,0 +1,7 @@
+{
+  "messages_produced": 10,
+  "messages_consumed": 10,
+  "topic_file": "artifacts\\files\\topic_messages.jsonl",
+  "elapsed_seconds": 0.014685,
+  "note": "Offline Kafka-style pub/sub simulation"
+}

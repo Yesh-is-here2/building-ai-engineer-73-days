@@ -1,0 +1,5 @@
+﻿Kafka simulation complete.
+Topic: artifacts\files\topic_messages.jsonl
+Consumed: artifacts\files\consumed_messages.json
+Metrics: artifacts\files\kafka_metrics.json
+Messages=10 | Elapsed=0.014685s
