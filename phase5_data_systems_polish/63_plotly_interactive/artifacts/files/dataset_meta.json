@@ -1,0 +1,25 @@
+{
+  "file": "artifacts\\files\\sales_dashboard_data.csv",
+  "rows": 3240,
+  "columns": [
+    "date",
+    "region",
+    "channel",
+    "product",
+    "orders",
+    "revenue",
+    "cost"
+  ],
+  "kpis_to_build": [
+    "Total Revenue",
+    "Total Orders",
+    "Profit (Revenue - Cost)",
+    "Profit Margin",
+    "Revenue by Region",
+    "Revenue by Channel",
+    "Revenue Trend (Date)",
+    "Top Products by Revenue"
+  ],
+  "elapsed_seconds": 0.009042,
+  "note": "Use this CSV in Power BI or Tableau to build a dashboard. Export screenshot/PDF as proof."
+}

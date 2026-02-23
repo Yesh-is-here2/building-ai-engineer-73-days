@@ -1,4 +1,4 @@
-﻿Interactive plot generated.
-HTML: artifacts\files\interactive_plot.html
-Metrics: artifacts\files\plot_metrics.json
-Points: 20 | Elapsed: 0.204289s
+﻿Dashboard dataset generated.
+CSV: artifacts\files\sales_dashboard_data.csv
+Meta: artifacts\files\dataset_meta.json
+Rows: 3240 | Elapsed: 0.009042s

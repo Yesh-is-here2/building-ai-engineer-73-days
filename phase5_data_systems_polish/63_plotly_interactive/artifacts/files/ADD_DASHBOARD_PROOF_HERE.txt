@@ -1,0 +1,7 @@
+﻿Add your Power BI / Tableau export here:
+
+- dashboard_screenshot.png  (preferred)
+or
+- dashboard_export.pdf
+
+This folder is meant to contain proof of the dashboard.
