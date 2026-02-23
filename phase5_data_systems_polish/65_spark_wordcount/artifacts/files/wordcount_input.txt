@@ -1,0 +1,11 @@
+Spark WordCount Demo (Offline-Safe)
+
+This simulates Spark's classic wordcount pipeline:
+1) Read text
+2) Map: tokenize -> (word, 1)
+3) Shuffle/GroupBy: group counts per word
+4) Reduce: sum counts
+5) Write results
+
+Spark is used for big data, but the logic is the same even in pure Python.
+We also include repeated terms: spark spark spark data data pipeline pipeline model model.

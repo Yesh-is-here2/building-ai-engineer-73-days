@@ -1,0 +1,30 @@
+{
+  "input_file": "artifacts\\files\\wordcount_input.txt",
+  "output_file": "artifacts\\files\\wordcount_output.csv",
+  "unique_words": 43,
+  "total_words": 58,
+  "top_5": [
+    [
+      "spark",
+      6
+    ],
+    [
+      "data",
+      3
+    ],
+    [
+      "pipeline",
+      3
+    ],
+    [
+      "counts",
+      2
+    ],
+    [
+      "is",
+      2
+    ]
+  ],
+  "elapsed_seconds": 0.010681,
+  "note": "Offline-safe Spark-like WordCount (map/shuffle/reduce)."
+}

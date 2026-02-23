@@ -1,0 +1,5 @@
+﻿WordCount complete.
+Input:   artifacts\files\wordcount_input.txt
+Output:  artifacts\files\wordcount_output.csv
+Metrics: artifacts\files\wordcount_metrics.json
+Total words=58 | Unique=43 | Elapsed=0.010681s
