@@ -1,0 +1,10 @@
+﻿Scaling simulation complete.
+Jobs: 50 | Total work (s): 6.35
+Artifacts: artifacts\files\results.csv , artifacts\files\results.json
+Table (workers -> makespan_s, speedup, efficiency):
+   1 ->     6.35 s |     1.0x | eff=1.0
+   2 ->     3.23 s | 1.965944x | eff=0.982972
+   3 ->     2.21 s | 2.873303x | eff=0.957768
+   4 ->     1.72 s | 3.69186x | eff=0.922965
+   6 ->     1.18 s | 5.381356x | eff=0.896893
+   8 ->     0.95 s | 6.684211x | eff=0.835526

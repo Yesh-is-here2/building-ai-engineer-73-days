@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "jobs": 50,
+    "total_work_s": 6.35,
+    "t1_makespan_s": 6.35,
+    "worker_options": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "note": "Makespan is computed from scheduled worker loads (offline-safe)."
+  },
+  "results": [
+    {
+      "workers": 1,
+      "jobs": 50,
+      "makespan_s": 6.35,
+      "avg_worker_load_s": 6.35,
+      "max_worker_load_s": 6.35,
+      "speedup": 1.0,
+      "efficiency": 1.0
+    },
+    {
+      "workers": 2,
+      "jobs": 50,
+      "makespan_s": 3.23,
+      "avg_worker_load_s": 3.175,
+      "max_worker_load_s": 3.23,
+      "speedup": 1.965944,
+      "efficiency": 0.982972
+    },
+    {
+      "workers": 3,
+      "jobs": 50,
+      "makespan_s": 2.21,
+      "avg_worker_load_s": 2.116667,
+      "max_worker_load_s": 2.21,
+      "speedup": 2.873303,
+      "efficiency": 0.957768
+    },
+    {
+      "workers": 4,
+      "jobs": 50,
+      "makespan_s": 1.72,
+      "avg_worker_load_s": 1.5875,
+      "max_worker_load_s": 1.72,
+      "speedup": 3.69186,
+      "efficiency": 0.922965
+    },
+    {
+      "workers": 6,
+      "jobs": 50,
+      "makespan_s": 1.18,
+      "avg_worker_load_s": 1.058333,
+      "max_worker_load_s": 1.18,
+      "speedup": 5.381356,
+      "efficiency": 0.896893
+    },
+    {
+      "workers": 8,
+      "jobs": 50,
+      "makespan_s": 0.95,
+      "avg_worker_load_s": 0.79375,
+      "max_worker_load_s": 0.95,
+      "speedup": 6.684211,
+      "efficiency": 0.835526
+    }
+  ],
+  "script_elapsed_s": 0.000299
+}
