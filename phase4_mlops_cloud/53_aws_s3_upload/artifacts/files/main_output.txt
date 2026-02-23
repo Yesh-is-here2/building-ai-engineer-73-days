@@ -1,0 +1,6 @@
+﻿S3_BUCKET is not set. Skipping real upload (offline-safe).
+To do a real upload, set env vars and run again:
+  $env:S3_BUCKET="your-bucket-name"
+  $env:S3_PREFIX="day53"   # optional
+  python main.py
+Created local file: artifacts\files\hello_s3.txt
