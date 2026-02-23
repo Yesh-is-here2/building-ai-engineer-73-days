@@ -1,0 +1,6 @@
+{
+  "tasks": 10,
+  "workers": 4,
+  "elapsed_seconds": 0.503344,
+  "note": "Ray-style parallel task simulation"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "input": 1,
+    "result": 1
+  },
+  {
+    "input": 2,
+    "result": 4
+  },
+  {
+    "input": 3,
+    "result": 9
+  },
+  {
+    "input": 4,
+    "result": 16
+  },
+  {
+    "input": 5,
+    "result": 25
+  },
+  {
+    "input": 6,
+    "result": 36
+  },
+  {
+    "input": 7,
+    "result": 49
+  },
+  {
+    "input": 8,
+    "result": 64
+  },
+  {
+    "input": 9,
+    "result": 81
+  },
+  {
+    "input": 10,
+    "result": 100
+  }
+]

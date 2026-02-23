@@ -1,0 +1,4 @@
+﻿Parallel tasks complete.
+Results: artifacts\files\parallel_results.json
+Metrics: artifacts\files\parallel_metrics.json
+Tasks=10 | Workers=4 | Elapsed=0.503344s
