@@ -23,9 +23,9 @@ Environment variables:
   EC2_PORT      = SSH port (default: 22)
 
 Example (PowerShell):
-  ="ec2-xx-xx-xx-xx.compute-1.amazonaws.com"
-  ="ubuntu"
-  ="C:\\Users\\akula\\.ssh\\mykey.pem"
+  $env:EC2_HOST="ec2-xx-xx-xx-xx.compute-1.amazonaws.com"
+  $env:EC2_USER="ubuntu"
+  $env:EC2_KEY_PATH="C:\Users\akula\.ssh\mykey.pem"
   python main.py
 
 Notes:
