@@ -1,0 +1,7 @@
+{
+  "train_rows": 96,
+  "eval_rows": 24,
+  "mae": 0.094449,
+  "rmse": 0.10738,
+  "elapsed_seconds": 0.019423
+}

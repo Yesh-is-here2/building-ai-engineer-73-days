@@ -1,0 +1,18 @@
+Day 60 - End-to-End Pipeline (Offline-Safe)
+
+Stages:
+1) Ingest: generated/used artifacts\files\data.csv
+2) Train:  trained linear model -> artifacts\files\model.json
+3) Eval:   metrics -> artifacts\files\metrics.json
+4) Predict: batch predictions -> artifacts\files\predictions.csv
+
+Key results:
+- train_rows = 96
+- eval_rows  = 24
+- mae        = 0.094449
+- rmse       = 0.10738
+- elapsed_s  = 0.019423
+
+Notes:
+- No cloud dependencies. No external services.
+- Artifacts are committed so GitHub shows proof of execution.

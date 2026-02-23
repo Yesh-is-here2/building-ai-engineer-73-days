@@ -1,0 +1,7 @@
+﻿End-to-end pipeline complete.
+Data:      artifacts\files\data.csv
+Model:     artifacts\files\model.json
+Metrics:   artifacts\files\metrics.json
+Preds:     artifacts\files\predictions.csv
+Summary:   artifacts\files\pipeline_summary.txt
+MAE=0.094449 | RMSE=0.10738 | Elapsed=0.019423s
