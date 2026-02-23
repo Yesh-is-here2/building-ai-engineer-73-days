@@ -1,0 +1,1 @@
+﻿OK kind= Pod name= hello-pod
