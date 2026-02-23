@@ -1,1 +1,1 @@
-﻿print("GitHub Actions workflow created: ci.yml")
+﻿print("GitHub Actions CI smoke test: OK")
