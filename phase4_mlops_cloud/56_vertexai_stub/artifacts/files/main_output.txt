@@ -1,0 +1,2 @@
+﻿VERTEX_PROJECT not set. Offline stub mode.
+Created artifacts/files/vertex_notes.txt
