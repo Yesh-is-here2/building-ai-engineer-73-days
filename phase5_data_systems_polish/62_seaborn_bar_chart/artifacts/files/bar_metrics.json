@@ -1,0 +1,7 @@
+{
+  "bars": 4,
+  "max_accuracy": 0.88,
+  "min_accuracy": 0.78,
+  "plot_file": "artifacts\\files\\bar_chart.png",
+  "elapsed_seconds": 0.155433
+}

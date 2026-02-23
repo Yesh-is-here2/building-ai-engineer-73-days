@@ -1,0 +1,4 @@
+﻿Bar chart generated.
+PNG: artifacts\files\bar_chart.png
+Metrics: artifacts\files\bar_metrics.json
+Bars: 4 | Elapsed: 0.155433s
