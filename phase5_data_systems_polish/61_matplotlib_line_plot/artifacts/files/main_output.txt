@@ -1,0 +1,4 @@
+﻿Plot generated.
+PNG: artifacts\files\line_plot.png
+Metrics: artifacts\files\plot_metrics.json
+Points: 20 | Elapsed: 0.212414s
