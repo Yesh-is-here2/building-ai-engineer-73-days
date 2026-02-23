@@ -1,0 +1,2 @@
+﻿EC2_HOST is not set. Skipping real connection (offline-safe).
+Wrote: artifacts/files/ssh_help.txt
