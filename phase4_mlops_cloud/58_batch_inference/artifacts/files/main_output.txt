@@ -1,0 +1,5 @@
+﻿Batch inference complete.
+Input:  artifacts\files\input.csv
+Output: artifacts\files\predictions.csv
+Metrics: artifacts\files\metrics.json
+Rows: 50 | Elapsed: 0.011452s
