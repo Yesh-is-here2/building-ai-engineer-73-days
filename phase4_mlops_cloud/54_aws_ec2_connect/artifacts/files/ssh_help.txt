@@ -1,0 +1,28 @@
+AWS EC2 Connect (stub)
+
+This script is OFFLINE-SAFE:
+- If EC2_HOST is not set, it prints instructions and exits successfully.
+- If EC2_HOST is set, it prints the SSH command you would run.
+
+Environment variables:
+  EC2_HOST      = public IPv4 / DNS of EC2 (required for real connect)
+  EC2_USER      = login user (default: ubuntu)
+  EC2_KEY_PATH  = path to your .pem private key (optional but usually needed)
+  EC2_PORT      = SSH port (default: 22)
+
+Example (PowerShell):
+  ="ec2-xx-xx-xx-xx.compute-1.amazonaws.com"
+  ="ubuntu"
+  ="C:\Users\akula\.ssh\mykey.pem"
+  python main.py
+
+Notes:
+- Windows OpenSSH needs private key permissions. If you get "Bad permissions", fix with:
+  icacls "" /inheritance:r
+  icacls "" /grant:r "akula:R"
+
+Real SSH command template:
+  ssh -i "<KEY_PATH>" -p 22 ubuntu@
+
+If using AWS SSM instead (no inbound SSH needed):
+  aws ssm start-session --target <instance-id>
