@@ -1,0 +1,3 @@
+﻿SageMaker notebook demo stub executed.
+Created file: artifacts/files/sagemaker_notes.txt
+In a real system this would run inside SageMaker.
