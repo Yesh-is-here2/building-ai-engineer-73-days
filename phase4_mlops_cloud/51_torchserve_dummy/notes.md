@@ -1,4 +1,13 @@
-﻿Day 51 - TorchServe (stub)
+﻿Day 51 — TorchServe Dummy
 
-Kept it small and runnable.
-If this needs a key/service, I left a safe stub and clear instructions.
+This module demonstrates a simple TorchServe workflow.
+
+TorchServe is a model serving framework for PyTorch models.
+
+This example includes:
+
+• Dummy TorchServe script
+• Example commands
+• Simulated deployment output
+
+No real model server required.
