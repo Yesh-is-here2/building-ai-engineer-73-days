@@ -1,0 +1,5 @@
+﻿latency_ms= 111
+latency_ms= 201
+latency_ms= 122
+latency_ms= 176
+latency_ms= 197

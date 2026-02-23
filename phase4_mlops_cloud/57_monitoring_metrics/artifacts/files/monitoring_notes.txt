@@ -1,0 +1,19 @@
+﻿Monitoring Metrics Module
+
+This module simulates ML system monitoring.
+
+Typical metrics:
+- CPU usage
+- Memory usage
+- Request latency
+- Throughput
+- Error rate
+- Model accuracy drift
+
+Real tools:
+- Prometheus
+- Grafana
+- CloudWatch
+- Datadog
+
+This demo shows how monitoring artifacts are generated.
