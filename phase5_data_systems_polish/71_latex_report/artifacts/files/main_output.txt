@@ -1,2 +1,5 @@
-﻿LaTeX report generated.
-File: artifacts\files\research_report.tex
+﻿Portfolio index created:
+- index.html
+
+Open locally:
+start index.html

@@ -1,20 +1,9 @@
-﻿Day 71 - LaTeX Research Report
+﻿Day 72 - Portfolio Index
 
 Goal:
-Generate a research-style LaTeX report.
+- One index page that links to the strongest artifacts across phases.
+- Makes your repo reviewable in 60 seconds.
 
-Why this matters:
-
-Research engineers often publish:
-
-- Technical reports
-- Papers
-- Experiments
-
-This module demonstrates academic documentation.
-
-Artifacts:
-
-- artifacts/files/research_report.tex
-- artifacts/files/latex_metrics.json
+Outputs:
+- index.html
 - artifacts/files/main_output.txt
