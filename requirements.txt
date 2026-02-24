@@ -1,7 +1,42 @@
+# Core
 numpy
 pandas
 scikit-learn
-psycopg2-binary
+
+# Visualization
 matplotlib
-seaborn
-jupyter
+
+# ML / AI
+torch
+transformers
+sentence-transformers
+
+# Vector Search
+faiss-cpu
+chromadb
+
+# NLP
+spacy
+nltk
+
+# AI Frameworks
+langchain
+llama-index
+
+# APIs
+flask
+fastapi
+uvicorn
+
+# Data Systems
+psycopg2-binary
+
+# Testing
+pytest
+
+# Utilities
+python-dotenv
+
+# Optional (not required but useful)
+tqdm
+requests
