@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "n": 10000,
+  "mean": -0.010249875414011648,
+  "var": 1.012611047960183,
+  "note": "Reproducibility demo: fixed seed -> identical results across runs."
+}

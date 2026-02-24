@@ -1,2 +1,3 @@
-﻿mean: -0.04802827676298692
-var : 0.9540463494733806
+﻿mean: -0.010249875414011648
+var : 1.012611047960183
+wrote: artifacts\files\repro_metrics.json
