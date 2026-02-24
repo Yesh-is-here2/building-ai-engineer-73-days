@@ -1,0 +1,5 @@
+{
+  "backend": "numpy (fallback)",
+  "elapsed_seconds": 0.235407,
+  "note": "Matrix ops demo: matmul, transpose, reduction. Uses JAX if installed, else NumPy fallback."
+}

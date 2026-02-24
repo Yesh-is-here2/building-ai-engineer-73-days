@@ -1,0 +1,5 @@
+﻿Matrix ops complete.
+Backend: numpy (fallback)
+Results: artifacts\files\matrix_results.json
+Metrics: artifacts\files\matrix_metrics.json
+Elapsed: 0.235407s
