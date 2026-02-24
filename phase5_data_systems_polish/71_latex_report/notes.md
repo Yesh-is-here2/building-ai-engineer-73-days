@@ -1,4 +1,20 @@
-﻿Day 71 - LaTeX report file
+﻿Day 71 - LaTeX Research Report
 
-Kept it small and runnable.
-If this needs a key/service, I left a safe stub and clear instructions.
+Goal:
+Generate a research-style LaTeX report.
+
+Why this matters:
+
+Research engineers often publish:
+
+- Technical reports
+- Papers
+- Experiments
+
+This module demonstrates academic documentation.
+
+Artifacts:
+
+- artifacts/files/research_report.tex
+- artifacts/files/latex_metrics.json
+- artifacts/files/main_output.txt

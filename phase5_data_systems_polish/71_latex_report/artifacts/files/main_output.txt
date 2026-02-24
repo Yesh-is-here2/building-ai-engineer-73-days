@@ -1,0 +1,2 @@
+﻿LaTeX report generated.
+File: artifacts\files\research_report.tex

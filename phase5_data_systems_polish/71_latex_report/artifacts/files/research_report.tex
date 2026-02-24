@@ -1,18 +1,4 @@
-﻿from pathlib import Path
-import time
-import json
 
-ART_DIR = Path("artifacts/files")
-TEX_FILE = ART_DIR / "research_report.tex"
-META_FILE = ART_DIR / "latex_metrics.json"
-
-def main():
-
-    t0 = time.time()
-
-    ART_DIR.mkdir(parents=True, exist_ok=True)
-
-    latex = r'''
 \documentclass{article}
 
 \title{Reproducible AI Engineering Experiments}
@@ -55,21 +41,3 @@ Key outputs include:
 This project demonstrates professional AI engineering practices including reproducibility, automation, and documentation.
 
 \end{document}
-'''
-
-    TEX_FILE.write_text(latex)
-
-    metrics = {
-        "file": str(TEX_FILE),
-        "type": "latex report",
-        "sections": 4,
-        "elapsed_seconds": round(time.time()-t0,6)
-    }
-
-    META_FILE.write_text(json.dumps(metrics,indent=2))
-
-    print("LaTeX report generated.")
-    print("File:", TEX_FILE)
-
-if __name__ == "__main__":
-    main()
